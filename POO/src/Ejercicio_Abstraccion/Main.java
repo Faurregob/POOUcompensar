@@ -12,7 +12,7 @@ public class Main {
 
         Auto auto1 = new Auto(kilometros1, litros1);
 
-        JOptionPane.showInternalMessageDialog(null, "Detalle Automovil" + "\n"
+        JOptionPane.showInternalMessageDialog(null, "Detalle Automovil " + "\n"
                 + "-----------------------------------------" + "\n"
                 + "Consumo de Combustible del Auto: " + auto1.calcularConsumo() + "\n"
                 + "Costo de Mantenimiento del Auto: " + auto1.calcularCostoMantenimiento() + "\n"
