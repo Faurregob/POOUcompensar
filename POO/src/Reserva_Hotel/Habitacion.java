@@ -13,14 +13,13 @@ public class Habitacion extends TipoReserva  implements Cancelacion{
 
     @Override
     public void realizarReserva(int numeroNoches) {
-        System.out.println("La reserva se realizo por " + numeroNoches + " noches");
+        System.out.println("La reserva se realiza por " + numeroNoches + " noches"+"\n");
     }
 
-    public void calcularCostoTotal(double costoPorNoche, int numeroNoches) {
-
-        System.out.println("Valor por noche reservada: $" + costoPorNoche);
-        System.out.println("Numero de Noches reservadas: " + numeroNoches);
-        System.out.println("Costo Total de la reserva: $" + (costoPorNoche * numeroNoches));
+    public double calcularCostoTotal(double costoPorNoche, int numeroNoches) {
+        System.out.println("Costo por Noche: "+ costoPorNoche);
+        System.out.println("Numero de Noches: "+numeroNoches);
+        return (costoPorNoche * numeroNoches);
 
     }
 

@@ -24,7 +24,6 @@ public class PaqueteTodoIncluido extends TipoReserva implements Cancelacion{
 
     @Override
     public void cancelarReserva() {
-        super.mostrarDetalles();
         System.out.println("Reserva de paquete todo incluido cancelada");
     }
     
