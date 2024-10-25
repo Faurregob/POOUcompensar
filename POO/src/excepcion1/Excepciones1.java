@@ -16,12 +16,12 @@ public class Excepciones1 {
         }
         
                      
-//        System.out.println("Ingrese el valor del divisor");
-//        if (entradaTeclado.hasNextDouble()) {
-//            divisor = entradaTeclado.nextDouble();
-//        }else{
-//            System.out.println("El valor del divisor no es double");
-//        }
+        System.out.println("Ingrese el valor del divisor");
+        if (entradaTeclado.hasNextDouble()) {
+            divisor = entradaTeclado.nextDouble();
+        }else{
+            System.out.println("El valor del divisor no es double");
+        }
         
         
         
@@ -31,7 +31,7 @@ public class Excepciones1 {
 //        }else{
 //            System.out.println("Estas ingresando el divisor con valor 0.");
 //        }
-//        
-//        System.exit(0);
+        
+        System.exit(0);
     }
 }
